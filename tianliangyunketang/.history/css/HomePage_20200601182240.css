@@ -1,0 +1,141 @@
+.yunKeTang {
+    width: 100%;
+    min-width: 1200px;
+    height: 10000px;
+    /* background-color: cadetblue; */
+    box-sizing: border-box;
+}
+/* 头部 */
+header {
+    width: 1200px;
+    height: 157px;
+    margin:0 auto;
+    /* background-color: chocolate; */
+
+}
+.header_search {
+    height: 1200px;
+    height: 106px;
+    /* background-color: crimson; */
+    position: relative;
+}
+.header_search img{
+    float: left;
+    margin-top: 44px;
+    line-height: 106px;
+}
+.header_text {
+    width: 400px;
+    height: 38px;
+    
+    /* background-color: darkblue; */
+    
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 48px;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    vertical-align: top;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.header_text input {
+    width: 317px;
+    height: 38px;
+    float: left;
+    margin-bottom: 0;
+    text-align: inherit;
+    display: table-cell;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline-color: green;
+}
+
+.header_text span{
+    float: left;;
+    width: 80px;
+    height: 38px;
+    background-color:rgb(0, 207, 140); ;
+    margin-left: -2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.header_text span button {
+    width: 100%;
+    height: 38px;
+    background: rgb(0, 207, 140);
+    color: white;
+    line-height: 38px;
+    font-size: 16px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+}
+.header_login {
+    width: 170px;
+    height: 106px;
+    float: right;
+    /* background-color: green; */
+    margin-right: 100px;
+}
+.header_login .loging{
+    float: left;
+    margin-top: 40px;
+    height: 32px;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 32px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+.header_login span img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.header_nav {
+    margin-top: 16px;
+    width: 120px;
+    height: 30px;
+}
+.header_nav ul {
+    width: 267px;
+    height: 30px;
+}
+.header_nav ul li {
+    float: left;
+    margin: 0 30px 0 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.header_nav ul li a:hover {
+    color: #00cf8c;
+}
+.header_nav .selcet a{
+    color: #00cf8c;
+}
+.header_nav .selcet {
+    color: #00cf8c;
+    border-bottom: 1px solid #00cf8c;
+}
+/* 轮播图 */
+.swiper_pic {
+    width: 100%;
+    height: 400px;
+}
+/* 直播课程 */
+.live_courses {
+    width: 1200px;
+    height: 420px;
+    margin: 50px auto;
+    background-color: brown;
+}
+.live_courses h2{
+    
+}

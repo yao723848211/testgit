@@ -1,0 +1,44 @@
+.yunKeTang {
+    width: 100%;
+    min-width: 1200px;
+    height: 1000px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+header {
+    width: 1200px;
+    height: 136px;
+    margin:0 auto;
+    background-color: chocolate;
+
+}
+.header_search {
+    height: 1200px;
+    height: 106px;
+    background-color: crimson;
+}
+.header_search img{
+    float: left;
+    margin-top: 44px;
+}
+.header_text {
+    width: 400px;
+    height: 38px;
+    background-color: darkblue;
+    margin: 48px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.header_text input {
+    width: 317px;
+    height: 38px;
+    float: left;
+    margin-bottom: 0;
+    text-align: inherit;
+    display: table-cell;
+}
+.header_text span{
+    width: 80;
+}

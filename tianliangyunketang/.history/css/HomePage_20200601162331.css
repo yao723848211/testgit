@@ -1,0 +1,22 @@
+.yunKeTang {
+    width: 100%;
+    min-width: 1200px;
+    height: 1000px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+header {
+    width: 1200px;
+    height: 136px;
+    margin:0 auto;
+    background-color: chocolate;
+
+}
+.header_search {
+    height: 1200px;
+    height: 106px;
+}
+.header_search img{
+    float: left;
+    margin-top: 50px;
+}

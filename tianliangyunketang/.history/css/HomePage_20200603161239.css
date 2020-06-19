@@ -1,0 +1,426 @@
+.yunKeTang {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    /* background-color: cadetblue; */
+    box-sizing: border-box;
+}
+/* 头部 */
+header {
+    width: 1200px;
+    height: 157px;
+    margin:0 auto;
+    /* background-color: chocolate; */
+
+}
+.header_search {
+    height: 1200px;
+    height: 106px;
+    /* background-color: crimson; */
+    position: relative;
+}
+.header_search img{
+    float: left;
+    margin-top: 44px;
+    line-height: 106px;
+}
+.header_text {
+    width: 400px;
+    height: 38px;
+    
+    /* background-color: darkblue; */
+    
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 48px;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    vertical-align: top;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.header_text input {
+    width: 317px;
+    height: 38px;
+    float: left;
+    margin-bottom: 0;
+    text-align: inherit;
+    display: table-cell;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline-color: green;
+}
+
+.header_text span{
+    float: left;;
+    width: 80px;
+    height: 38px;
+    background-color:rgb(0, 207, 140); ;
+    margin-left: -2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.header_text span button {
+    width: 100%;
+    height: 38px;
+    background: rgb(0, 207, 140);
+    color: white;
+    line-height: 38px;
+    font-size: 16px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+}
+.header_login {
+    width: 170px;
+    height: 106px;
+    float: right;
+    /* background-color: green; */
+    margin-right: 100px;
+}
+.header_login .loging{
+    float: left;
+    margin-top: 40px;
+    height: 32px;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 32px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+.header_login span img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.header_nav {
+    margin-top: 16px;
+    width: 120px;
+    height: 30px;
+}
+.header_nav ul {
+    width: 280px;
+    height: 30px;
+}
+.header_nav ul li {
+    float: left;
+    margin: 0 30px 0 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.header_nav ul li a:hover {
+    color: #00cf8c;
+}
+.header_nav .selcet a{
+    color: #00cf8c;
+}
+.header_nav .selcet {
+    color: #00cf8c;
+    border-bottom: 1px solid #00cf8c;
+}
+.header_nav  ul li:hover .header_cc {
+    display: block;
+}
+.header_nav  ul li:hover ol a{
+    color:black
+}
+.header_bb {
+    display: block;
+    position: relative;
+}
+.header_cc {
+    position: absolute;
+    display: none;
+    width: 120px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    height: 180px;
+    background-color: whitesmoke;
+    z-index: 9;
+}
+.header_cc li {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    z-index: 9;
+}
+.header_cc li:hover {
+    width:100%;
+    background-color: rgb(0, 207, 140);;
+    color: tomato;
+    z-index: 9;
+}
+/* 轮播图 */
+.swiper_pic {
+    width: 100%;
+    height: 400px;
+}
+/* 直播课程 */
+.live_courses {
+    width: 1200px;
+    height: 420px;
+    margin: 80px auto;
+    /* background-color: brown; */
+}
+.live_courses h2{
+    margin: 50px 0 30px 0;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+.live_courses>div {
+    width: 1200px;
+    height: 350px;
+    /* background-color: cadetblue; */
+    color: #333;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+.live_courses_left {
+    width: 600px;
+    height: 350px;
+    box-sizing: border-box;
+    background-image: url(../images/s6.png) ;
+    background-repeat: no-repeat;
+    color: #f4f4f4;
+    text-align: center;
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 5px;
+    float: left;
+}
+.live_courses_left_con {
+    padding: 80px 50px;
+    height: 350px;
+    background-color: rgba(0,0,0,.6);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.live_courses_left_con>div{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.live_courses_left_con button{
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00cf8c;
+    border-color: #00cf8c;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+}
+.live_courses_right {
+    width: 600px;
+    height: 350px;
+    background-color: #f4f4f4;
+    border: 1px solid #eee;
+    overflow: auto;
+    opacity: 1;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: right;
+    box-sizing: border-box;
+}
+.live_courses_right li {
+    float: left;
+    /* background: #fff; */
+    /* border-left: 5px solid #00cf8c; */
+    /* color: #00cf8c; */
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px 0 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+/* .live_courses_right li:hover {
+    background: #fff;
+    border-left: 5px solid #00cf8c;
+    color: #00cf8c;
+} */
+.live_courses_right .active{
+     background: #fff;
+    border-left: 5px solid #00cf8c;
+    color: #00cf8c;
+}
+.live_courses_right li span {
+    margin-top: 17px;
+}
+.live_courses_right li p {
+    margin-left: 50px;
+}
+.live_courses_right li .box1{
+    margin-left: 70px;
+}
+/* 课程 */
+.courses {
+    width: 1200px;
+    height: auto;
+    margin: 40px auto;
+    /* background-color: forestgreen; */
+}
+.free_course {
+    width: 1200px;
+    height: auto;
+}
+.free_course h3 {
+    text-align: center;
+    font-size: 24px;
+}
+.free_course_title {
+    width: 1200px;
+    height: 48px;
+    border-bottom: 1px solid gray;
+}
+.free_course_title span {
+    float: right;
+    line-height: 34px;
+    margin-top: -30px;
+
+}
+.free_course_title a {
+    color: #999;
+    font-size: 16px;  
+}
+.free_course_content {
+    width: 1200px;
+    height: auto;
+}
+.free_course_content ul {
+    width: 1200px;
+    height:auto ;
+}
+.free_course_content li {
+    width: 221px;
+    height: 205px;
+    /* background-color: green; */
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+.free_course_content .con1 {
+    width: 100%;
+    height: 200px;
+}
+.free_course_content .con1 dt:nth-of-type(1){
+    width: 100%;
+    height: 123px;
+}
+.free_course_content .con1 .con1Img {
+    width: 221px;
+    height: 123px;
+}
+.free_course_content .con1 .dt2:hover {
+    color: #00cf8c;
+}
+/* 底部 */
+/* footer {
+    width: 100%;
+    height: 200px;
+    background-color: #444546;
+    color:#999;;
+    font-size: 14px;
+    margin-top: -75px;
+}
+.footer_ {
+    width: 1200px;
+    height: 200px;
+    padding: 20px 0;
+    margin: auto;
+    color: #999;
+    font-size: 14px;
+}
+.footer_title {
+    line-height: 30px;
+    font-size: 22px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    color: #999;
+}
+.footer_nav {
+    min-height: 40px;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #999;
+    font-size: 14px;
+}
+.footer_nav a{
+    margin-right: 30px;
+    font-size: 14px;
+    color: #999;
+}
+.footer_nav a:hover {
+    color: #00cf8c;
+}
+.footer_bottom {
+    height: 1px; 
+    width: 1000px; 
+    margin: auto;
+    color: #999;
+    font-size: 14px;
+}
+.footer_hr {
+    height: 1px;
+    border: 1px solid rgb(84, 84, 84);
+    line-height: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin: 24px 0;
+    position: relative;
+    top: -.06em;
+}
+.footer_p {
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    margin-top: -25px;
+} */
+.fixed_postion {
+    list-style: none;
+    position: fixed;
+    bottom: 35vh;
+    right: 20px;
+    z-index: 999;
+    height: auto;
+    width: 70px;
+    /* background-color: lightcoral; */
+}
+.fixed_postion_1 {
+    color: #009688;
+    text-align: center;
+    background-color: #e6f7ff;
+    border-top: 1px solid #e8e8e8;
+    width: 100%;
+}
+.fixed_postion_1 a{
+    display: block;
+    padding: 10px 7px 4px 7px;
+}
+.fixed_postion_1  a i {
+    color: #009688;
+    font-size: 35px;
+    display: inline-block;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.fixed_postion_1 a:hover {
+    color: white;
+}

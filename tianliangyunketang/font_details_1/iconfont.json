@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7325977",
+      "name": "下载_",
+      "font_class": "xiazai_",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}
